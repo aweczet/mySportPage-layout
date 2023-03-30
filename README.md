@@ -1,7 +1,8 @@
 # My Sport Page
 
-This is MySportPage layout written in svelte.
+This is MySportPage layout, written in `TypeScript` using `svelte` and `tailwind`. E2E tests will (hopefully) be written using `playwright`.
 
+Backend of this project is written in `Java` by [`KacperKochanowski`](https://github.com/KacperKochanowski). Check out [`mySportPage repo`](https://github.com/KacperKochanowski/mySportPage) for more info.
 
 ## Developing
 

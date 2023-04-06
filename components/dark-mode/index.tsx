@@ -4,6 +4,7 @@ import { Button, Text, useColorMode } from "@chakra-ui/react";
 
 export const DarkModeSwitcher = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+  console.log(colorMode);
   return (
     <Button onClick={toggleColorMode} variant="outline">
       <Icon

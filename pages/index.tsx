@@ -14,7 +14,7 @@ const Home: NextPageWithLayout = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box as="main" w="full" minH="100dvh">
+      <Box as="main" w="full">
         <HomePage />
       </Box>
     </>

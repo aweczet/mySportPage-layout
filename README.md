@@ -1,6 +1,6 @@
 # My Sport Page
 
-This is MySportPage layout, written in `TypeScript` using `ReactJS`, `NextJS` and `Tailwind`.
+This is MySportPage layout, written in `TypeScript` using `ReactJS`, `NextJS` and `ChakraUI`.
 
 Backend of this project is written in `Java` by [`KacperKochanowski`](https://github.com/KacperKochanowski). Check out [`mySportPage repo`](https://github.com/KacperKochanowski/mySportPage) for more info.
 

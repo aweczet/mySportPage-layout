@@ -1,7 +1,7 @@
 import Head from "next/head";
-import {DarkModeSwitcher} from "@/components/dark-mode";
-const HomePage = () => {
+import { DarkModeSwitcher } from "@/components/dark-mode";
 
+const HomePage = () => {
   return (
     <>
       <Head>

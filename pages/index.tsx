@@ -1,8 +1,11 @@
 import Head from "next/head";
 import HomePage from "@/pages/Home";
-import {Box} from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
+import { NextPageWithLayout } from "@/pages/_app";
+import { ReactElement } from "react";
+import DefaultLayout from "@/layouts/defaultLayout";
 
-export default function Home() {
+const Home: NextPageWithLayout = () => {
   return (
     <>
       <Head>
@@ -12,8 +15,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Box as="main" w="full" minH="100dvh">
-      <HomePage />
+        <HomePage />
       </Box>
     </>
   );
-}
+};
+
+Home.getLayout = function getLayout(page: ReactElement) {
+  return <DefaultLayout>{page}</DefaultLayout>;
+};
+
+export default Home;

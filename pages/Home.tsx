@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { DarkModeSwitcher } from "@/components/dark-mode";
+import { Box } from "@chakra-ui/react";
 
 const HomePage = () => {
   return (
@@ -7,10 +7,9 @@ const HomePage = () => {
       <Head>
         <title>Home page</title>
       </Head>
-      <div>
+      <Box px={10}>
         <p>try me out!</p>
-        <DarkModeSwitcher />
-      </div>
+      </Box>
     </>
   );
 };

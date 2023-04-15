@@ -4,7 +4,7 @@ import { mdiTwitter } from "@mdi/js";
 
 const Footer = () => {
   return (
-    <Box w="full" mt="auto" p={4}>
+    <Box w="full" mt="auto" p={4} px={10}>
       <Center>
         <HStack>
           <Text>&copy; MySportPage - </Text>

@@ -26,3 +26,5 @@ Home.getLayout = function getLayout(page: ReactElement) {
 };
 
 export default Home;
+
+export { getServerSideProps } from "@/components/color-mode-manager/index";
